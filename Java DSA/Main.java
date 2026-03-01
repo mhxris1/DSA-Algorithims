@@ -20,14 +20,24 @@ public class Main{
 
         */
 
+       /* 
+       
        SelectionSort selectionSortAsc = new SelectionSort(testAsc);
        selectionSortAsc.selectionSortAsc();
 
        SelectionSort selectionSortDsc = new SelectionSort(testDsc);
        selectionSortDsc.selectionSortDsc();
-               
-        System.out.println(Arrays.toString(testAsc));
-        System.out.println(Arrays.toString(testDsc));
+       */
+       
+       MergeSort mergeSortAsc = new MergeSort(testAsc);
+       int[] sortedAsc = mergeSortAsc.mergeSortAsc();
+
+
+        // System.out.println(Arrays.toString(testAsc));
+
+        System.out.println(Arrays.toString(sortedAsc));
+
+        // System.out.println(Arrays.toString(testDsc));
 
         }
 }
